@@ -1,0 +1,10 @@
+{
+  "name": "nizam-al-baqala",
+  "version": "0.1.0",
+  "description": "نظام البقالة المحاسبي - Offline/Online POS",
+  "scripts": {
+    "dev:desktop": "cd desktop && npm run tauri dev",
+    "dev:mobile": "cd mobile && npm run dev",
+    "build:apk": "cd mobile && npm run build && npx cap sync && npx cap open android"
+  }
+}
